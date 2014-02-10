@@ -1,6 +1,6 @@
 {
   "name": "3vot-js-salesforce",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Salesforce Extensions for SpineJS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
