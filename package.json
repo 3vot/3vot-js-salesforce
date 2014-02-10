@@ -1,0 +1,17 @@
+{
+  "name": "3vot-js-salesforce",
+  "version": "0.0.5",
+  "description": "Salesforce Extensions for SpineJS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "readme": "ERROR: No README data found!",
+  "_id": "3vot-spine-salesforce@0.0.4",
+  "dist": {
+    "shasum": "f5dddb94b21fec914d0f98e5f222a5ad7f6d46b9"
+  },
+  "_from": "3vot-spine-salesforce@0.0.4",
+  "_resolved": "https://registry.npmjs.org/3vot-spine-salesforce/-/3vot-spine-salesforce-0.0.4.tgz"
+}
