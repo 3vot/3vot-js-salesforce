@@ -8,11 +8,10 @@ Spine.Ajax.setProvider = function(providerName){
       },
       crossDomain: true,
       headers: {
-        provider: providerName
+        "X-3vot-Provider": providerName
       }
   });  
 }
-
 
 Spine.Ajax.Collection.prototype.query = function(params, options) {
   var queryString,
@@ -26,7 +25,7 @@ Spine.Ajax.Collection.prototype.query = function(params, options) {
   queryString = options.queryString ? options.queryString : this.model.getQuery(params, options);
   return this.ajax(params, {
     type: 'GET',
-    url: Spine.Model.endpoint + ("/?query=" + queryString)
+    url: Spine.Model.host + ("/?query=" + queryString)
   }).done(this.recordsResponse).fail(this.failResponse).done(function(records) {
     _this.model.trigger("querySuccess");
     return _this.model.refresh(records, options);
